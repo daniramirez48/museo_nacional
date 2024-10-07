@@ -1,0 +1,153 @@
+            /*encabezado*/
+         
+header {
+    margin-left: 0;
+    width: 100%;
+}
+header h1 {
+    font-size: 24px;
+    margin: 0;
+   padding-left: 25px;
+}
+
+.header {
+    background-color: rgb(16, 30, 136) ;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+   border-radius: 5%;
+    
+}
+
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(52, 107, 244);
+    list-style-type: none;
+    gap: 25px ;
+    margin-right: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 10%;
+    border-style: outset;
+    
+    
+}
+.menu li {
+    display: inline;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19;
+    border: 10px 20px;
+    border-radius: 5%;
+    padding: 10px 20px;
+    
+
+}
+.menu li a:hover {
+    background-color: rgb(218, 218, 232);
+}
+
+                /*Fin encabezado*/
+.info {
+   text-align: center;
+   background-color: rgb(174, 233, 235);
+   padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px; 
+    max-width: 800px;
+    box-shadow:10px 10px 20px rgb(39, 38, 38);
+    
+
+}
+.info h2 {
+    background-color:rgb(60, 94, 248);
+    border-style: ridge;
+    padding: 10px 20px;                  /* Espacio interno ajustado */
+    box-shadow: inset 1px 1px 25px rebeccapurple;
+    color: white;
+    border: 2%;
+}
+.info p {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    line-height: 1.6; /* Ajusta el espacio entre las líneas del texto */
+  
+}
+body {
+    background-color: rgb(201, 221, 238);
+}
+.info h3 {
+  
+    padding: 10px 20px;
+    display: flex;
+    text-decoration: underline;
+    
+}
+.contenido2 h2 {
+    color: white;
+   text-align: left;
+  
+}
+.contenido2 li {
+    text-align: left;
+}
+.footer {
+    background-color: rgb(30, 103, 238); /* Color de fondo del footer */
+    color: white; /* Color del texto */
+    padding: 20px 0; /* Espacio alrededor del contenido */
+    text-align: center; /* Centra el texto*/
+ }   
+
+   /* TABLA DE HORARIO STYLE*/
+  
+   table {
+    border-collapse:collapse;
+    width: 60%;
+    font-size: 18px;
+    margin: 20px 0;
+    text-align: left;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px;
+ 
+}
+   th, td {
+     border: 2px solid black;
+ }
+  
+    td:nth-child(1), th:nth-child(1) {
+        background-color: rgb(166, 226, 238); /* Cambia el color a lo que prefieras */
+        text-align: center;
+        padding: 10px;
+        
+    }
+    td:nth-child(2), th:nth-child(2) {
+      background-color: rgb(247, 228, 172);
+      text-align: center;
+    }
+    td:nth-child(3), th:nth-child(3) {
+        background-color: rgb(243, 193, 169);
+        text-align: center;
+    }
+    td:nth-child(4), th:nth-child(4) {
+        background-color: rgb(237, 206, 111);
+        text-align: center;
+    }
+    .tabla {
+        min-height: 70vh;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    caption {
+        background-color: rgba(30, 127, 224, 0.442);
+        border:1px solid black ;
+        box-shadow: 5px 5px 20px;
+    }
